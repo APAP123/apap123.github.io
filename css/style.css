@@ -50,6 +50,10 @@ body {
   width: 10rem;
 }
 
+hr {
+  border: 1px solid rgb(89, 165, 142);
+}
+
 .main_contain {
   display: flex;
   justify-content: space-between;
@@ -63,6 +67,14 @@ body {
 .subheading {
   font-weight: bold;
   font-size: 2rem;
+  border-bottom: 1px solid rgb(89, 165, 142);
+}
+
+.sub_blurb {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-weight: normal;
+  font-size: 1rem;
 }
 
 .cards {
@@ -74,7 +86,9 @@ body {
   display: flex;
   flex-direction: column;
   background-color: rgb(89, 165, 142);
-  margin: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   padding-top: 0.25rem;
