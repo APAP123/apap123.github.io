@@ -1,8 +1,8 @@
 @import "normalize.css";
 html {
   font-family: Helvetica, sans-serif;
-  background-color: white;
-  color: rgb(21, 21, 21);
+  background-color: rgb(82, 202, 174);
+  color: rgb(255, 255, 255);
 }
 
 body {
@@ -11,7 +11,8 @@ body {
   margin-top: 5rem;
   margin-left: 15rem;
   margin-right: 15rem;
-  background-color: rgb(144, 169, 89);
+  background-color: rgb(55, 137, 127);
+  padding-left: 2rem;
 }
 
 .heading {
@@ -25,6 +26,9 @@ body {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
+
+  display: flex;
+  align-items: flex-end;
 
   font-weight: bold;
   /* font-variant: small-caps; */
@@ -69,12 +73,27 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  background-color: rgb(233, 184, 114);
+  background-color: rgb(89, 165, 142);
   margin: 1rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   max-width: 15rem;
 }
 
 .card_img {
   width: 10rem;
   align-self: center;
+  padding-bottom: 4px;
+}
+
+.card_title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 1px rgb(0, 102, 71) solid;
+}
+
+.card_blurb {
+  padding-top: 4px;
 }
