@@ -14,6 +14,7 @@ html {
   margin-bottom: 5rem;
   background-color: rgb(55, 137, 127);
   padding-left: 2rem;
+  border: 1px rgb(0, 102, 71) solid;
 }
 
 .heading {
@@ -84,7 +85,6 @@ hr {
   flex-direction: column;
   grid-column: 2 3;
   border-left: 1px rgb(0, 102, 71) solid;
-  border-right: 1px rgb(0, 102, 71) solid;
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
