@@ -5,13 +5,19 @@ html {
   color: rgb(255, 255, 255);
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
   margin-left: 15rem;
   margin-right: 15rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   background-color: rgb(55, 137, 127);
   padding-left: 2rem;
   border: 1px rgb(0, 102, 71) solid;
@@ -194,4 +200,17 @@ a:hover {
   display: flex;
   direction: row;
   align-items: center;
+}
+
+.footer {
+  /* background-color: rgb(55, 137, 127); */
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  color: black;
+  transition: 0.2s;
 }
